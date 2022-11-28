@@ -1,12 +1,23 @@
 // app.ts
 App({
+
+  globalData: {
+    isLogin: false,
+    device: {
+      statusBarHeight: 0,
+      safeBottomHeight: 0,
+    },
+  },
+
   onLaunch() {
 
     // 设备信息
     try {
       const res = wx.getSystemInfoSync()
-      // const safeBottom = res.screenHeight - res.safeArea.bottom
-      console.log(res)
+      this.globalData.device = {
+        statusBarHeight: res.statusBarHeight,
+        safeBottomHeight: res.screenHeight - res.safeArea.bottom,
+      }
     } catch (e) {
       // Do something when catch error
     }
