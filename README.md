@@ -31,3 +31,18 @@ const tx: Transaction = {
   // properties
 };
 ```
+
+## Docs
+
+#### package
+https://github.com/Tencent/tdesign-miniprogram  
+https://www.npmjs.com/package/dayjs  
+https://www.npmjs.com/package/lodash  
+
+#### weixin document
+https://developers.weixin.qq.com/miniprogram/dev/framework  
+
+#### typescritp handbook
+https://www.typescriptlang.org/docs/handbook/intro.html  
+https://www.tslang.cn/docs/handbook/basic-types.html  
+https://typescript.bootcss.com  
