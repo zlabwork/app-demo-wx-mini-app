@@ -1,2 +1,5 @@
 <!--pages/user/index.wxml-->
-<text>pages/user/index.wxml</text>
+<view class="status-bar" style="height: {{ app.device.statusBarHeight }}px;"></view>
+<view>
+  <text>pages/user/index.wxml</text>
+</view>
