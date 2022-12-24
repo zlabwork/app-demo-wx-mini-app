@@ -6,6 +6,11 @@
     "ignore": [],
     "include": []
   },
+  "watchOptions": {
+    "ignore": [
+      ".git/**/**"
+    ]
+  },
   "setting": {
     "coverView": true,
     "es6": true,
